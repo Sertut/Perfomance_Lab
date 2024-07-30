@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Task4 {
+public class task4 {
     public static void main(String[] args) throws IOException {
         // Массив для хранения чисел
         int[] arrayOfNumbers = new int[100000];

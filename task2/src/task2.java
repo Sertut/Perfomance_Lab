@@ -3,7 +3,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Scanner;
 
-public class Test2 {
+public class task2 {
     public static void main(String[] args) throws IOException {
         double[][] coordinates = new double[101][2];
         double[] center = new double[2];
