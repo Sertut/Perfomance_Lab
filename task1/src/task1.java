@@ -1,4 +1,4 @@
-public class Task1 {
+public class task1 {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.err.println("Введите аргументы: java Task1 <n> <m>");
