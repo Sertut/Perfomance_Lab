@@ -8,7 +8,7 @@ public class task1 {
         int n = Integer.parseInt(args[0]);
         int m = Integer.parseInt(args[1]);
 
-// Инициализация массива с числами от 1 до n
+// Инициализация массива с числами от 1 до  n
         int[] arr = initializeArray(n);
 
         int current = 1; // Начальное значение для текущего элемента

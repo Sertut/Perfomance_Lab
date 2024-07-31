@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class task3 {
     public static void main(String[] args) throws IOException {
-        // Проверим, что передано три аргумента
+        // Проверим, что передано три  аргумента
         if (args.length < 3) {
             System.err.println("Введите: java task3 <путь к первому файлу> <путь ко второму файлу> <путь к report.json>");
             return;

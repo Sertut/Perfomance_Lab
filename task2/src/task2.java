@@ -9,7 +9,7 @@ public class task2 {
         double[] center = new double[2];
         double radius = 10.0;
 
-        // Извлекаем пути к файлам из аргументов
+        // Извлекаем пути к файлам из  аргументов
         String inputFilePath = args[0];
         String pointsFilePath = args[1];
 

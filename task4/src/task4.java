@@ -18,7 +18,7 @@ public class task4 {
         Scanner fileScanner = new Scanner(inputFilePath);
         int index = 0;
 
-        // Читаем числа из файла и записываем в массив
+        // Читаем числа из файла и записываем в  массив
         while (fileScanner.hasNextInt()) {
             arrayOfNumbers[index] = fileScanner.nextInt();
             index++;
