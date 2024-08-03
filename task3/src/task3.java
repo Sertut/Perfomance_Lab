@@ -11,7 +11,7 @@ public class task3 {
     public static void main(String[] args) throws IOException {
         // Проверим, что передано три  аргумента
         if (args.length < 3) {
-            System.err.println("Введите: java task3 <путь к первому файлу> <путь ко второму файлу> <путь к report.json>");
+            System.err.println("Введите: java task3 <путь к файлу value.json> <путь к файлу tests.json> <путь к report.json>");
             return;
         }
 

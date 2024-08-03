@@ -9,6 +9,11 @@ public class task4 {
         // Массив для хранения чисел
         int[] arrayOfNumbers = new int[100000];
 
+        if (args.length < 1) {
+            System.err.println("Введите: java task4 <путь к файлу>");
+            return;
+        }
+
         // Переменные для хранения длины массива и результата
         int actualLength = 0;
         int totalDifference = 0;

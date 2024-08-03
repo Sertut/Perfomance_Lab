@@ -9,6 +9,11 @@ public class task2 {
         double[] center = new double[2];
         double radius = 10.0;
 
+        if (args.length < 2) {
+            System.err.println("Введите: java task2 <путь к первому файлу> <путь ко второму файлу>");
+            return;
+        }
+
         // Извлекаем пути к файлам из  аргументов
         String inputFilePath = args[0];
         String pointsFilePath = args[1];
